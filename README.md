@@ -103,3 +103,5 @@ Email: [your@email.com](mailto:tenderokachisi706@gmail.com)
 This project demonstrates the ability to build a structured, responsive, and user-friendly website using fundamental web technologies.
 
 ---
+
+live demo here https://tenderoashley.github.io/tendero-portifolio/
