@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner container">
+            <div class="site-title">Tendero</div>
+            <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <nav id="mainNav" class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contacts.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
+        <h2>About Me</h2>
+        <p>I’m a frontend developer with a passion for clean, accessible user experiences. I combine practical engineering with thoughtful visual design to create websites that are both beautiful and easy to use.</p>
+
+        <h3>Core Values</h3>
+        <ul>
+            <li><strong>User-centric design:</strong> I prioritize user needs through research, feedback, and usability testing.</li>
+            <li><strong>Performance-first:</strong> I optimize load times and responsiveness across devices.</li>
+            <li><strong>Maintainable code:</strong> I write clear HTML, modern CSS, and modular JS.</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <p>HTML ⭐⭐⭐⭐</p>
+        <p>CSS ⭐⭐⭐⭐</p>
+        <p>JavaScript ⭐⭐⭐</p>
+        <p>Git & Version Control ⭐⭐⭐</p>
+        <p>Responsive Design ⭐⭐⭐⭐</p>
+
+        <h3>Education & Experience</h3>
+        <ul>
+            <li>2023 - Started Web Development</li>
+            <li>2024 - Completed Frontend Bootcamp</li>
+            <li>2025 - Built Portfolio</li>
+        </ul>
+
+        <h3>Recent Highlights</h3>
+        <ul>
+            <li>Launched a responsive e-commerce prototype with live checkout flows.</li>
+            <li>Improved website speed by 47% for a local startup using CSS and JS perf work.</li>
+            <li>Created accessible forms with ARIA attributes and keyboard navigation support.</li>
+        </ul>
+    </section>
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const mainNav = document.getElementById('mainNav');
+        navToggle?.addEventListener('click', () => mainNav.classList.toggle('open'));
+        mainNav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => mainNav.classList.remove('open')));
+    </script></body>
+</html>
